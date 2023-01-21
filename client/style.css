@@ -51,6 +51,9 @@ body {
 
 .ai {
   background: #40414F;
+  width: 50%;
+  border-radius: 10px;
+  align-self:left;
 }
 
 .chat {
@@ -65,8 +68,8 @@ body {
 }
 
 .profile {
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   border-radius: 5px;
 
   background: #5436DA;
@@ -81,8 +84,8 @@ body {
 }
 
 .profile img {
-  width: 60%;
-  height: 60%;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
 
@@ -117,7 +120,7 @@ form {
   max-width: 1280px;
   margin: 0 auto;
   padding: 10px;
-  background: #40414F;
+  background-image: url('./assets/marvel.jpg');
 
   display: flex;
   flex-direction: row;
